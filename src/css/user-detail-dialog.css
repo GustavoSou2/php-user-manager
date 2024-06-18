@@ -1,0 +1,139 @@
+.user-detail {
+    position: relative;
+    height: 100%;
+}
+
+.user-detail-banner {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.user-detail-info {
+    padding: 0 30px;
+}
+
+.user-detail-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    margin-top: -75px;
+    margin-left: 25px;
+}
+
+.user-detail-info-name {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.user-detail-info-job {
+    color: var(--gray);
+}
+
+.user-detail-assets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.active-badget {
+    padding: 0.3rem 0.9rem;
+    border-radius: 24px;
+    font-weight: bold;
+    background-color: var(--active-badget-background);
+    font-size: 0.9rem;
+}
+
+.user-active .active-badget {
+    --purple-opacity: 0.2;
+    --active-badget-background: rgb(108, 92, 231, var(--purple-opacity));
+    --badget-color: var(--purple);
+}
+
+.user-inactive .active-badget {
+    --danger-opacity: 0.2;
+    --active-badget-background: rgb(235, 77, 75,
+            var(--danger-opacity));
+    --badget-color: var(--danger);
+}
+
+.active-badget .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--badget-color);
+    margin-right: 5px;
+}
+
+.user-detail-assets .asset h3 {
+    font-weight: bold;
+    color: var(--medium-blue);
+}
+
+.user-detail-assets .asset p {
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.user-detail-info-contacts {
+    color: var(--gray);
+}
+
+.user-detail-info-contacts p {
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+.user-detail-info-contacts .fa-solid {
+    width: 35px;
+    height: 35px;
+    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.user-detail-adress {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.user-detail-options {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    justify-content: space-around;
+    width: 100%;
+}
+
+.user-detail-options .option .fa-solid {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-blue);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.user-detail-options .option p {
+    color: var(--gray);
+    font-size: 0.9rem;
+}

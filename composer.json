@@ -1,0 +1,16 @@
+{
+    "name": "user-management/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "UserManagement\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GustavoSou2",
+            "email": "gustavosocial1032@gmail.com"
+        }
+    ],
+    "require": {}
+}
