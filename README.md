@@ -8,7 +8,7 @@ Criado um simples gerenciador de usuário/clientes
 para instalar as dependências
 `composer install`
 para iniciar o servidor 
-`php -S localhost:(porta) -t public`
+`php -S localhost:(porta) -t src`
 ---
 
 ![](https://github.com/GustavoSou2/php-user-manager/blob/master/assets/image.png)
